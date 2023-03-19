@@ -226,7 +226,4 @@ function retrieve_seconds() {
 	console.log(endTask)
 
 	const difference = Math.floor((endTask - createdTask) / 1000)
-	console.log(difference)
 }
-
-retrieve_seconds()
